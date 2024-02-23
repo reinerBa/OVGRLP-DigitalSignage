@@ -13,6 +13,6 @@ const app = createApp(App)
 app.provide<string>('app-version', version)
 app.provide<string>('build-date', buildDate)
 
-app.use(router)
+// app.use(router)
 
 app.mount('#app')
